@@ -4,6 +4,7 @@ You can play, pause and seek a video.
 That's all.
 
 <img src=https://github.com/john-rocky/AVPlayerView/assets/23278992/8db73860-044f-4f30-82dd-43afa560c160>
+[![Open with Xcode](https://img.shields.io/badge/Open%20with-Xcode-blue.svg)](xcode://clone?repo=<URL-エンコードされたGitHubリポジトリのURL>)
 
 # Usage
 ### Install
