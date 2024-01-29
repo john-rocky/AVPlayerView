@@ -10,6 +10,8 @@ or
 Add with Swift Package Manager.
 
 ```swift
+import avplayerview
+
 var avPlayerView = AVPlayerView()
 avPlayerView.frame = view.bounds
 view.addSubview(avPlayerView)
