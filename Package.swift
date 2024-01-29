@@ -4,23 +4,23 @@
 import PackageDescription
 
 let package = Package(
-    name: "AVPlayerView",
+    name: "avplayerview",
     platforms: [
         .iOS(.v13) 
     ],
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
-            name: "AVPlayerView",
-            targets: ["AVPlayerView"]),
+            name: "avplayerview",
+            targets: ["avplayerview"]),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
         .target(
-            name: "AVPlayerView"),
+            name: "avplayerview"),
         .testTarget(
-            name: "AVPlayerViewTests",
-            dependencies: ["AVPlayerView"]),
+            name: "avplayerviewTests",
+            dependencies: ["avplayerview"]),
     ]
 )
