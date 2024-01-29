@@ -140,7 +140,7 @@ public class AVPlayerView: UIView {
     }
 
     
-    override func layoutSubviews() {
+    public override func layoutSubviews() {
         super.layoutSubviews()
         playerLayer?.frame = bounds
     }
