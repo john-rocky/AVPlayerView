@@ -1,7 +1,7 @@
 import UIKit
 import AVFoundation
 
-class AVPlayerView: UIView {
+public class AVPlayerView: UIView {
     var player: AVPlayer?
     var playerLayer: AVPlayerLayer?
     private var isVideoPlaying = false
@@ -36,13 +36,13 @@ class AVPlayerView: UIView {
         }
     }
     
-    func play() {
+    public func play() {
         player?.play()
         isVideoPlaying = true
         hidePlayPauseButton()
     }
     
-    func pause() {
+    public func pause() {
         player?.pause()
         playPauseButton.setImage(UIImage(systemName: "play.fill", withConfiguration: largeConfig), for: .normal)
         isVideoPlaying = false
