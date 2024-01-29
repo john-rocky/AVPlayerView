@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "avplayerview",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/john-rocky/AVPlayerView.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "bf9cbb8f460094a8778aae288def0f755e21b78e"
+      }
+    }
+  ],
+  "version" : 2
+}
