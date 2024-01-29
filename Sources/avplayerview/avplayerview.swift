@@ -145,7 +145,7 @@ public class AVPlayerView: UIView {
         playerLayer?.frame = bounds
     }
 
-    func loadVideo(url: URL) {
+    public func loadVideo(url: URL) {
         asset = AVAsset(url: url)
         player = AVPlayer(playerItem: AVPlayerItem(asset: asset!))
         playerLayer?.player = player
